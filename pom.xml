@@ -3,4 +3,28 @@
   <groupId>testmvn</groupId>
   <artifactId>testproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  
+  <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.7.1</version>
+    <scope>compile</scope>
+</dependency>
+
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.7.2</version>
+</dependency>
+
+
+
+</dependencies>
+
+  <properties>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 </project>
